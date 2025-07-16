@@ -1,4 +1,4 @@
-function  Contact() {
+function  ContactRight() {
     return (
         <>
             <div className="fixed flex flex-col items-center z-10 top-[11.4375rem] right-[15rem] gap-[0.3125rem]">
@@ -15,9 +15,14 @@ function  Contact() {
                     <img src="./img/contact/union.svg" />
                 </div>
             </div>
+            <style>{`
+                a {
+                    cursor: pointer;
+                }
+            `}</style>
         </>
     )
 
 }
 
-export default Contact;
+export default ContactRight;
