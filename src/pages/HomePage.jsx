@@ -7,6 +7,9 @@ import InteriorComponent from "../components/InteriorComponent.jsx";
 import ProcedureComponent from "../components/ProcedureComponent.jsx";
 import ContactComponent from "../components/ContactComponent.jsx";
 import SectionWrapper from "../components/common/SectionWrapper.jsx";
+import ContactRight from "../layout/ContactRight.jsx";
+import ContactBottom from "../layout/ContactBottom.jsx";
+import IntroComponent02 from "../components/IntroComponent02.jsx";
 
 function HomePage() {
     const [activeId, setActiveId] = useState("intro");
@@ -43,9 +46,14 @@ function HomePage() {
     return (
         <>
             <Header activeId={activeId} />
+            <ContactRight />
+            <ContactBottom />
             <div className="w-full mt-[4.375rem]">
                 <SectionWrapper id="intro" sectionRef={sectionRefs.intro}>
                     <IntroComponent01 />
+                </SectionWrapper>
+                <SectionWrapper sectionRef={sectionRefs.intro}>
+                    <IntroComponent02 />
                 </SectionWrapper>
                 <SectionWrapper id="strategy" sectionRef={sectionRefs.strategy}>
                     <StrategyComponent />
