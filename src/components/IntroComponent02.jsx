@@ -31,9 +31,9 @@ function IntroComponent02() {
     return (
         <>
             <div className="w-full pt-[7.5rem] pb-[8.125rem]" ref={sectionRef}>
-                <div className="text-center">
+                <div className="text-center mb-[3.125rem]">
                     <h1 className="text-[3.875rem] font-extrabold text-[#5C2DBA]">무인편의점 "창업"</h1>
-                    <h2 className="text-[3rem] font-medium">온앤오프24와 함꼐라면 안심하셔도 됩니다</h2>
+                    <h2 className="text-[3rem] font-medium">온앤오프24와 함께라면 안심하셔도 됩니다</h2>
                 </div>
                 <div className="flex gap-[1.875rem] justify-center w-full">
                     <div className="circle-1 flex flex-col items-center justify-center">

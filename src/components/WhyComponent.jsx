@@ -1,10 +1,12 @@
+import {useRef} from "react";
+
 function WhyComponent() {
+    const sectionRef = useRef(null);
     return (
-        <div className="bg-gray-400 w-full h-[800px]">
-            <div>
-                dd
+        <>
+            <div className="w-full h-[700px] bg-[url(/img/why/back.svg)] bg-fit" ref={sectionRef}>
             </div>
-        </div>
+        </>
     );
 }
 

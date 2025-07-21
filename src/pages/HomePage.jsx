@@ -10,6 +10,7 @@ import SectionWrapper from "../components/common/SectionWrapper.jsx";
 import ContactRight from "../layout/ContactRight.jsx";
 import ContactBottom from "../layout/ContactBottom.jsx";
 import IntroComponent02 from "../components/IntroComponent02.jsx";
+import IntroComponent03 from "../components/IntroComponent03.jsx";
 
 function HomePage() {
     const [activeId, setActiveId] = useState("intro");
@@ -54,6 +55,9 @@ function HomePage() {
                 </SectionWrapper>
                 <SectionWrapper sectionRef={sectionRefs.intro}>
                     <IntroComponent02 />
+                </SectionWrapper>
+                <SectionWrapper sectionRef={sectionRefs.intro}>
+                    <IntroComponent03 />
                 </SectionWrapper>
                 <SectionWrapper id="strategy" sectionRef={sectionRefs.strategy}>
                     <StrategyComponent />
