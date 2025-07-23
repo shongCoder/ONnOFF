@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import Header from "../layout/Header.jsx";
 import IntroComponent01 from "../components/IntroComponent01.jsx";
 import StrategyComponent from "../components/StrategyComponent.jsx";
-import WhyComponent from "../components/WhyComponent.jsx";
+import WhyComponent01 from "../components/WhyComponent01.jsx";
 import InteriorComponent from "../components/InteriorComponent.jsx";
 import ProcedureComponent from "../components/ProcedureComponent.jsx";
 import ContactComponent from "../components/ContactComponent.jsx";
@@ -11,6 +11,9 @@ import ContactRight from "../layout/ContactRight.jsx";
 import ContactBottom from "../layout/ContactBottom.jsx";
 import IntroComponent02 from "../components/IntroComponent02.jsx";
 import IntroComponent03 from "../components/IntroComponent03.jsx";
+import WhyComponent02 from "../components/WhyComponent02.jsx";
+import WhyComponent03 from "../components/WhyComponent03.jsx";
+import WhyComponent04 from "../components/WhyComponent04.jsx";
 
 function HomePage() {
     const [activeId, setActiveId] = useState("intro");
@@ -63,7 +66,16 @@ function HomePage() {
                     <StrategyComponent />
                 </SectionWrapper>
                 <SectionWrapper id="why" sectionRef={sectionRefs.why}>
-                    <WhyComponent />
+                    <WhyComponent01 />
+                </SectionWrapper>
+                <SectionWrapper sectionRef={sectionRefs.why}>
+                    <WhyComponent02 />
+                </SectionWrapper>
+                <SectionWrapper sectionRef={sectionRefs.why}>
+                    <WhyComponent03 />
+                </SectionWrapper>
+                <SectionWrapper sectionRef={sectionRefs.why}>
+                    <WhyComponent04 />
                 </SectionWrapper>
                 <SectionWrapper id="interior" sectionRef={sectionRefs.interior}>
                     <InteriorComponent />
