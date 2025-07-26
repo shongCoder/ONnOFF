@@ -29,8 +29,8 @@ function WhyComponent04() {
     }, []);
 
     return (
-        <div className="w-full flex items-center justify-center">
-            <div className="w-[95rem] pt-[13.43rem] pb-[13.25rem]" ref={sectionRef}>
+        <div className="w-full flex items-center justify-center" id="why4">
+            <div className="w-[95rem] pt-[13.43rem] pb-[6.5rem]" ref={sectionRef}>
                 <div className="font-bold text-white mb-[15px] bg-[#A788F7] px-[9px] pt-[3px] pb-[6px] inline-block rounded-[50px]">REASON<span className="text-[1.3rem]">03.</span></div>
                 <h1 ref={titleRef} className={`reason-title3 font-bold text-[3rem] ${animate ? 'animate3' : ''}`}>수익극대화를 위한 제안</h1>
                 <div className="text-[1.75rem] mt-[50px] mb-[50px] font-medium">

@@ -39,10 +39,10 @@ function WhyComponent02() {
     }, []);
 
     return (
-        <div className="w-full flex items-center justify-center">
+        <div className="w-full flex items-center justify-center" id="why2">
             <div className="w-[95rem] pt-[13.43rem] pb-[13.25rem] flex justify-between" ref={sectionRef}>
                 <div className="flex-1 mt-6">
-                    <div className="font-bold text-white mb-[15px] bg-[#A788F7] px-[9px] pt-[3px] pb-[6px] inline-block rounded-[50px]">REASON<sapn className="text-[1.3rem]">01.</sapn></div>
+                    <div className="font-bold text-white mb-[15px] bg-[#A788F7] px-[9px] pt-[3px] pb-[6px] inline-block rounded-[50px]">REASON<span className="text-[1.3rem]">01.</span></div>
                     <h1  ref={titleRef} className={`reason-title font-bold text-[3rem] ${animate ? 'animate' : ''}`}>안정적인 무인시스템 지원</h1>
                     <div className="text-[1.75rem] mt-[50px] mb-[60px] font-medium">
                         RFID 도난방지와 100% 손실 보상, 모바일 스마트 매장 관리,

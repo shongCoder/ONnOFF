@@ -39,7 +39,7 @@ function WhyComponent03() {
     }, []);
 
     return (
-        <div className="w-full flex items-center justify-center bg-on_purple_100">
+        <div className="w-full flex items-center justify-center bg-on_purple_100" id="why3">
             <div className="w-[95rem] pt-[13.43rem] pb-[13.25rem] flex justify-between" ref={sectionRef}>
                 <div className="flex-1 mt-6">
                     <div className="font-bold text-white mb-[15px] bg-[#A788F7] px-[9px] pt-[3px] pb-[6px] inline-block rounded-[50px]">REASON<span className="text-[1.3rem]">02.</span></div>

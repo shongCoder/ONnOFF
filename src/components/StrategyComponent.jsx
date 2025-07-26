@@ -1,7 +1,6 @@
 import React, {useEffect, useRef, useState} from "react";
 
 function StrategyComponent() {
-    const sectionRef = useRef(null);
     const scrollRef = useRef(null);
     const [menu, setMenu] = useState("special");
 
@@ -114,7 +113,7 @@ function StrategyComponent() {
     //special, conversion, twojobs, vacancy
     return (
         <>
-            <div className="w-full pt-[7.5rem] pb-[8.125rem] bg-[url(/img/strategy/back.svg)] bg-contain bg-no-repeat" ref={sectionRef}>
+            <div className="w-full pt-[7.5rem] pb-[8.125rem] bg-[url(/img/strategy/back.svg)] bg-contain bg-no-repeat">
                 <div className="text-center mb-[3.125rem]">
                     <h1 className="text-[3.875rem] font-extrabold">성공전략</h1>
                 </div>

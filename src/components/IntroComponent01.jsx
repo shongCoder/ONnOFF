@@ -1,7 +1,10 @@
+import {useRef} from "react";
+
 function IntroComponent01() {
+    const sectionRef = useRef(null);
     return (
         <div className="w-full flex h-[930px]">
-            <div className="w-[45%] h-full bg-[url('/img/info/circle.svg')] bg-no-repeat bg-right mr-[1.125rem]">
+            <div className="w-[45%] h-full bg-[url('/img/info/circle.svg')] bg-no-repeat bg-right mr-[1.125rem]" ref={sectionRef}>
             </div>
             <div className="w-[55%] h-full bg-[#A788F7] flex items-center">
                 <div className="w-[50rem] h-[28rem] bg-white ml-[1.5625rem]">
